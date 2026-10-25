@@ -1,0 +1,3 @@
+Dur,SrcBytes,DstBytes,SrcPkts,DstPkts,sTtl,dTtl,Proto
+1.25,1024,2048,10,12,64,64,tcp
+0.5,512,128,4,2,64,64,udp

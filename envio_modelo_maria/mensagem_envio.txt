@@ -1,0 +1,20 @@
+Assunto: Trabalho MARIA — modelo treinado para os testes do seu TCC
+
+Olá, Fabricio!
+
+Obrigado pelo contato e pelo interesse no trabalho MARIA. Ficamos contentes em saber que ele está contribuindo para o seu TCC e para a investigação de uma arquitetura assíncrona.
+
+A base consolidada utilizada no trabalho, merged_dataset_with_selected_atack_types.csv, ainda não está pública. Por isso, neste momento, não conseguimos disponibilizar o CSV solicitado.
+
+Para ajudar você a avançar com a integração e os testes, estamos encaminhando em anexo o modelo CatBoost já treinado (catboos_model.joblib), acompanhado de um script Python de exemplo, das dependências e de instruções de uso. Assim, você poderá executar as predições sem precisar treinar novamente o modelo ou acessar a nossa base.
+
+O pacote inclui um pequeno CSV com dados fictícios, apenas para demonstrar a execução. Para os seus experimentos, será necessário fornecer os atributos dos fluxos de rede no formato descrito no README. O script retorna a classe prevista e as probabilidades de cada classe, e pode servir como ponto de partida para integrar a inferência à sua arquitetura.
+
+Esse material permite avançar nos testes de integração e desempenho da inferência. Para retreinar o modelo ou avaliar métricas de classificação, como precisão e recall, ainda será necessária uma base adequada e rotulada. Os resultados também dependem da compatibilidade entre a extração dos atributos dos seus fluxos e a utilizada no trabalho.
+
+Pedimos que cite o artigo MARIA ao utilizar o modelo no TCC ou em futuras publicações. Ficaremos felizes em conhecer os resultados e as contribuições da sua proposta.
+
+Bom trabalho e sucesso no desenvolvimento!
+
+Atenciosamente,
+Cleitianne e equipe do trabalho MARIA
