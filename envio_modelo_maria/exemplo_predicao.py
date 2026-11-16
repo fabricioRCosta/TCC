@@ -57,7 +57,7 @@ def predizer(modelo, dados):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--modelo', type=Path, default=PASTA / 'catboos_model.joblib')
-    parser.add_argument('--entrada', type=Path, default=PASTA / 'meu_dataset_gigante.csv')
+    parser.add_argument('--entrada', type=Path, default=PASTA / 'exemplo_fluxos.csv')
     parser.add_argument('--saida', type=Path, help='CSV opcional com classes e probabilidades')
     args = parser.parse_args()
     try:
